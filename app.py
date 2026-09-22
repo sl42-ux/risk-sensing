@@ -100,7 +100,7 @@ with col2:
                         첨부된 캠페인 키비주얼 이미지를 20대 글로벌 규범에 맞춰 검수하고 리포트를 작성하세요.
                         """
                         response = client.models.generate_content(
-                            model="gemini-2.5-flash",
+                            model="gemini-3.6-flash",
                             contents=[image, prompt],
                             config=types.GenerateContentConfig(
                                 system_instruction=SYSTEM_INSTRUCTION,
